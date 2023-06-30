@@ -91,16 +91,16 @@ WSGI_APPLICATION = 'FortuneMediaBackEnd.wsgi.application'
 #     }
 # }
 
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.postgresql_psycopg2",
-#         "NAME": "fortunadb",
-#         "USER": "fortunauser",
-#         "PASSWORD": "fortuna2023!",
-#         "HOST": "localhost",
-#         "PORT": "",
-#     }
-# }
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "fortunadb",
+        "USER": "fortunauser",
+        "PASSWORD": "fortuna2023!",
+        "HOST": "localhost",
+        "PORT": "",
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
